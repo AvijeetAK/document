@@ -20,3 +20,7 @@ var collection = document.getElementsByTagName('li');
 console.log(collection);
 
 collection[4].style.fontWeight = 'bold';
+
+items[1].style.backgroundColor = 'green';
+
+items[2].style.display = 'none';
