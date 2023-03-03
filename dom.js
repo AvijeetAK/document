@@ -14,3 +14,9 @@ for(var i=0; i<items.length; i++)
 {
     items[i].style.fontWeight = 'bold';
 }
+
+var collection = document.getElementsByTagName('li');
+
+console.log(collection);
+
+collection[4].style.fontWeight = 'bold';
